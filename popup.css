@@ -49,3 +49,15 @@ input#summary:focus {
     color: blue;
     font-size: 2em;
 }
+
+.field-tools {
+    display: none !important;
+}
+
+
+.field-group>label {
+    float: none !important;
+    margin-left: unset !important;
+    font-size: 2em !important;
+    color: #212121 !important;
+}
