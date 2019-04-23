@@ -48,7 +48,9 @@ input#summary:focus {
     cursor: text;
     color: blue;
     font-size: 2em;
+    margin-top: 3vw;
 }
+
 
 .field-tools {
     display: none !important;
@@ -60,4 +62,18 @@ input#summary:focus {
     margin-left: unset !important;
     font-size: 2em !important;
     color: #212121 !important;
+}
+
+textarea#description {
+    border-bottom: 1px solid blue;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 0px;
+    outline: none;
+    resize: none;
+    font-size: 2em;
+    color: blue;
+    height: 17vw !important;
+    margin-top: 3vw;
 }
