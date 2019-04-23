@@ -1,0 +1,51 @@
+/* Форма заказа */
+
+/* Попап */
+
+div#atlwdg-container {
+    border: none !important;
+    border-radius: 0px !important;
+}
+
+
+/* Загловок */
+
+h2.dialog-title {
+    color: #212121 !important;
+    font-family: PT sans;
+    background: #f6f6f6 !important;
+    border: none !important;
+}
+
+/* Фон */
+
+.atlwdg-blanket {
+    background: #dedede!important;
+}
+
+
+/* Информационное сообщение */
+
+.aui-message.info.custom-msg {
+    display: none !important;
+}
+
+
+/* Поле ввода */
+
+input#summary {
+    border-bottom: 1px solid blue !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0px !important;
+    font-size: 2em;
+}
+
+input#summary:focus {
+    border: none !important;
+    outline: none;
+    cursor: text;
+    color: blue;
+    font-size: 2em;
+}
